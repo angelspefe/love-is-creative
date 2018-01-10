@@ -24,6 +24,6 @@ Bri King is one of the most inspiring women I’ve ever met. We were flatmates i
 
 Bri had a clear aesthetic preference, but also gave me freedom to interpret her business when creating both her logo and website. She knew she wanted to use coral and turquoise colours, and let me fly with the rest. Strategically, the logo needed to be elegant and approachable, but also denote an educational element - to achieve this I used a watercolour splash paired with a handwritten typeface.
 
-The website was built using [Squarespace](http://www.squarespace.com) and customised with the business branding. In addition to the main website, which includes a blog, I also created and set up a parallel site using the platform Teachable to host her online courses, which available to students all over Victoria, Australia.
+The website was built using [Squarespace](http://www.squarespace.com){:target="_blank"} and customised with the business branding. In addition to the main website, which includes a blog, I also created and set up a parallel site using the platform [Teachable](https://teachable.com/){:target="_blank"} to host her online courses, which are available to students all over Victoria, Australia.
 
-Head to [Bri King Tutoring's website](http://www.brikingtutoring.com) to see it live. I hope you like it as much as I do!
+Head to [Bri King Tutoring's website](http://www.brikingtutoring.com){:target="_blank"} to see it live. I hope you like it as much as I do!
