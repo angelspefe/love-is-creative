@@ -300,6 +300,10 @@ footer a:hover {
   font-style: italic;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 .projects h1 {
   font-size: 2.2rem;
 }
