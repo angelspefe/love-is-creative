@@ -165,7 +165,7 @@ header {
 .bg-image-about {
   background-image: url('/images/my-photo.jpg');
   background-position:left;
-  display:hidden;
+  display:none;
 }
 
 .bg-web {
