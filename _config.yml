@@ -1,0 +1,11 @@
+categories:
+  - web
+  - graphic
+  - creative va
+  - featured
+
+collections:
+  projects:
+    output: true
+
+permalink: pretty

@@ -1,0 +1,17 @@
+<section>
+<h2>Featured projects</h2>
+<div class="image-table grid align-center" id="projects-table">
+  {% assign featuredProjects = site.projects | if: category == "featured" %}
+    {% for item in featuredProjects %}
+  <a class="col-6_xs-12 table-item" href="{{item.url}}">
+    <div class="hover" style="background-image: url('{{item.featured_image}}')">
+      <h2>{{item.client}}</h2>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+</section>
+
+<div class="align-center padded-5 padded-bottom">
+  <a href='/projects' class="button">see more projects</a>
+</div>

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Love is Creative - Projects
+
+---
+
+<!-- - - - - - - - - - - CATEGORIES BUTTONS - - - - - - - - - - -  -->
+<section class="projects">
+  <h1>Navigate through the web and graphic design projects we've created for creative entrepreneurs.</h1>
+  <nav class="port-nav grid align-center padded-top" id="portfolio-filter">
+    <div class="col-4">
+      <a href='#' class="button active">all</a>
+    </div>
+    <div class="col-4">
+      <a href='#' class="button">web</a>
+    </div>
+    <div class="col-4">
+      <a href='#' class="button ">graphic</a>
+    </div>
+    </nav>
+</section>
+
+<!-- - - - - - - - - - - GRID - - - - - - - - - - -  -->
+<section>
+<div class="image-table grid align-center" id="projects-table">
+  {% for item in site.projects %}
+  <a class="col-6_xs-12 table-item {% for thing in item.categories | join:' ' %} {{thing}} {% endfor %}" href="{{item.url}}">
+    <div class="hover" style="background-image:url('{{item.featured_image}}')">
+      <h2>{{item.client}}</h2>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+</section>
+
+
+<!-- - - - - - - - - - - link - - - - - - - - - - -  -->
+<section class="padded-bottom">
+  <h2>Now it's your turn </h2>
+  <div class="align-center">
+    <a href="/contact" class="button">get in touch</a>
+  </div>
+</section>

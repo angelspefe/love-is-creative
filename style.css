@@ -1,0 +1,793 @@
+/*----------- CSS RESET -----------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+  max-width:100%;
+}
+img {
+  max-width: 100%;
+  padding-bottom:2%;
+  margin-left:auto;
+  margin-right:auto;
+  }
+
+/*----------- UNIVERSAL STYLES -----------*/
+/* Eg padding on your sections, utility classes, etc. */
+
+
+/*----------- paddings & positionings -----------*/
+
+section, footer, .subfooter {
+  padding: 5% 10% 2% 10%;
+}
+
+header {
+  padding:2% 5% 0 5%;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.padded-5 {
+  padding:5%
+}
+
+.padded-2 {
+  padding:2%
+}
+
+.padded-bottom {
+  padding-bottom:10%
+}
+
+.padded-top {
+  padding-top:10%;
+}
+
+.padded-right-0 {
+  padding: 5% 5% 2% 15%;
+}
+
+.padded-left-0 {
+  padding: 10% 5% 2% 15%;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position:relative;
+}
+
+.hidden {
+  display:none;
+}
+
+.mob-show {
+  display:none;
+}
+
+.tab-show {
+  display:none;
+}
+
+.banner {
+  height:90vh;
+}
+
+.homepage-testimonials {
+  padding-right:0;
+}
+
+.homepage-testimonials .button {
+  padding:5%
+}
+
+
+
+/*----------- elements -----------*/
+.boxed { /* >> this is for the elements that are in a box */
+  width: 60%;
+}
+
+/* buttons */
+.button,
+.button-2
+{
+  cursor: pointer;
+  position: relative;
+}
+
+.button::after {
+  content: '';
+  border-bottom: 1rem solid rgba(255, 240, 142, 0.6);
+  width: 100%;
+  position: absolute;
+  right: 0;
+  top: 40%;
+  transition:1s;
+}
+.button:hover:after {
+  border-bottom: 1rem solid rgba(255, 240, 142, 0);
+}
+
+.button.active::after {
+  border-bottom: 0rem solid rgba(255, 240, 142, 0.0);
+}
+
+.button-2 {
+  font-style:italic;
+}
+
+.button-2:hover {
+  text-decoration: line-through;
+}
+
+/* font awesome */
+.fa-chevron-down {
+  font-size: 1em;
+  padding:10%;
+}
+
+.fa:hover {
+  color:#fff08e;
+}
+
+/*----------- overlapping images, images and background images -----------*/
+
+.signature img{
+  width:100px;
+}
+
+.img-small {
+  width: 70%;
+}
+
+[class*="bg"] {
+  background-size:cover;
+  background:none;
+  background-repeat:no-repeat;
+}
+
+.bg-right {
+  background-position:right;
+}
+
+.bg-color {
+  background-image: url('/images/bg-color.jpg');
+  background-position:right;
+}
+
+.bg-image-about {
+  background-image: url('/images/my-photo.jpg');
+  background-position:left;
+  display:hidden;
+}
+
+.bg-web {
+  background-image: url('/images/bg-web.jpg');
+  background-position:right;
+}
+
+.bg-graphic {
+  background-image: url('/images/bg-graphic.jpg');
+  background-position:right;
+}
+
+/* .bg-creativeva {
+  background-image: url('/images/bg-creativeva.jpg');
+  background-position:right;
+} */
+
+.bg-full-package {
+  background-image: url('/images/bg-full-package.jpg');
+  background-position:right;
+}
+
+.bg-color-form {
+  background-image: url('/images/bg-color-form.jpg');
+  background-position:right;
+}
+
+.bg-image-testimonial {
+  background-image: url(/images/bri-king-tutoring-homepage.jpg);
+  padding-bottom: 20%;
+  background-position:center;
+}
+
+.text-box {
+  background-color: #fff08e;
+  padding:5%;
+  width:60%;
+}
+
+.grey {
+  background-color: #eee;
+}
+
+.yellow {
+  background-color: #fff08e;
+}
+
+.bump-right {
+  margin-left: 17rem;
+}
+
+.bump-right a {
+  margin-left: 5rem;
+}
+
+.bump-left {
+  margin-top: 1rem;
+  margin-left:-1rem;
+  margin-bottom: 1rem;
+  margin-right:1rem;
+  z-index:2;
+}
+
+.bump-down {
+  margin-top: 4rem;
+}
+
+
+/*----------- TYPOGRAPHY -----------*/
+
+p, h1, h2, h3, h4, h5, li {
+  color: #000000;
+  padding-bottom:1rem;
+}
+
+p, h3, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h4, h5, a {
+  font-family: 'Crimson Text', serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p, li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+li {
+  margin-left:1.5rem;
+}
+
+h1 {
+  font-size: 3rem;
+  padding-bottom:1.5rem;
+  padding-right:20%;
+}
+
+h2 {
+  font-size: 2.2rem;
+  padding-bottom:1rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size:0.9rem;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
+  color:#eeeeee;
+  font-size: 9rem;
+}
+
+a {
+  color: #000000;
+  text-decoration:none;
+  font-size:1.2rem;
+}
+
+header a:hover,
+footer a:hover {
+  color:#eee;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.projects h1 {
+  font-size: 2.2rem;
+}
+
+
+/*----------- NAVIGATION BAR -----------*/
+
+header {
+  background-color: #fff;
+  vertical-align: top;
+  height: 80px;
+  position: relative;
+  z-index: 100;
+  padding: 2vh 10%;
+}
+
+header img {
+  top: 0;
+  width: 200px;
+}
+
+header li {
+  list-style:none;
+  display:inline-block;
+  margin-left:3.5rem;
+  padding-bottom:0;
+}
+
+header a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size:0.9rem;
+  font-weight:600;
+}
+
+header nav {
+  text-align: right;
+}
+
+
+/*----------- BURGER MENU -----------*/
+
+.mob-logo {
+  text-align:left;
+}
+
+.burger-button {
+  position:fixed;
+  top: 3vh;
+  right: 3vh;
+  z-index: 9999999999;
+  padding: 8px;
+}
+
+/*this is where you can change the color of the buttons*/
+.burger-button span{
+  width: 20px;
+  border: 1px solid #000;
+  background-color: #000;
+  display: block;
+}
+
+.burger-button.active span {
+  border-color: #000;
+  background-color:#000;
+}
+
+.burger-top, .burger-bottom {
+  position: absolute;
+}
+
+.burger-top {
+  top: 02px;
+}
+
+.burger-bottom{
+  bottom: 02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  border-color: rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0);
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+.burger-button.active
+.burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+.burger-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left:0;
+  right: 0;
+  background-color: #fff08e ;
+  padding:5px;
+  z-index: 99999999;
+}
+
+.burger-menu a {
+  display: block;
+  padding: 5px 15px;
+  text-align: center;
+  font-family: 'Crimson';
+  font-weight:300;
+  font-style:italic;
+  text-transform:lowercase;
+  font-size:1.1rem;
+}
+
+.burger-menu a:hover {
+  color:#000;
+  text-decoration: line-through;
+}
+
+.burger-menu li{
+  list-style:none;
+  display:block;
+  margin-left:0;
+}
+
+/*----------- DROPDOWN SECTION-----------*/
+
+.dropdown-content {
+  display:none;
+  padding:5%;
+  background-color: #eee;
+}
+
+.dropdown-nav {
+  padding-bottom:0;
+}
+
+.dropdown-nav h2 {
+  border: 2px solid #eee;
+  padding:2%;
+  font-size:1.2rem;
+}
+
+
+/*----------- IMAGE HOVER -----------*/
+
+.hover {
+  background-size:cover;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  transition: 1s;
+}
+
+.hover h2{
+  transition: 1s;
+  color: rgba(0,0,0,0);
+  background-color: rgba(240,240,240,.0);
+  opacity: 0;
+  display:flex;
+  height:100%;
+  width:100%;
+  align-items:center;
+  justify-content:center;
+  min-height: 40vh;
+}
+
+.hover:hover h2{
+  display:flex;
+  height:100%;
+  width:100%;
+  background-color: rgba(240,240,240,.7);
+  color:#000;
+  opacity: 1;
+}
+
+
+/*----------- TESTIMONIAL (INCLUDE) -----------*/
+
+.testimonial {
+  color:#000000;
+  text-align: center;
+}
+
+.testimonial p {
+  font-family: 'Crimson Text', serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-bottom:5%;
+}
+
+.quote-mark {
+  font-size: 5rem;
+}
+
+p.testimonial-author {
+  font-family: 'Open Sans', sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:0.9em;
+}
+
+.testimonial h3 {
+  padding-bottom: 1rem;
+}
+
+/*----------- FORM -----------*/
+
+form input,
+form label,
+form textarea,
+form p,
+form input[type="submit"],
+button {
+  font-family: 'Crimson Text', serif;
+  font-size:1em;
+  color:#000000;
+  width:100%;
+  background:none;
+  padding:0.2rem;
+  border: 0px;
+}
+
+button {
+  display: block;
+  width: auto;
+  margin: auto;
+  margin-top:5%;
+}
+
+form input,
+form textarea {
+  border-bottom:0.5px solid #000000;
+  margin-bottom: 0.2rem;
+}
+
+form textarea {
+  min-height:20vh;
+}
+
+form p {
+  line-height:0;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+ width:auto;
+ margin-right: 10px
+}
+
+form input[type="submit"] {
+  padding-top:10%;
+  text-transform:lowercase;
+}
+
+/* this is the color of the placeholders for each browser */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+/*----------- SIGN-UP FORM -----------*/
+
+.sign-up {
+padding: 5% 20% 5% 20%;
+text-align: center;
+background-color:#eee;
+}
+
+.sign-up p,
+.sign-up h3{
+  padding-bottom: 2rem;
+}
+
+.sign-up form input,
+.sign-up form label,
+.sign-up form textarea,
+.sign-up form p,
+.sign-up form input[type="submit"] {
+  width:60%;
+}
+
+/*----------- FOOTER MENU BAR -----------*/
+
+footer {
+  background-color: #fff;
+  vertical-align: bottom;
+  position: relative;
+  z-index: 100;
+}
+
+footer li,
+footer h3 {
+  padding-bottom:0.2rem;
+}
+
+footer li {
+  list-style:none;
+  margin-left:0;
+}
+
+footer a {
+  font-size: 1rem
+}
+
+footer nav {
+  padding-bottom; 0;
+}
+
+
+/*----------- SUBFOOTER & social media -----------*/
+
+.sub-footer {
+  background-color: #eee;
+  padding:5% 0 2% 0;
+  bottom:0;
+}
+
+.sub-footer img {
+  width: 100px;
+}
+.sub-footer p {
+  padding-bottom:0.5rem;;
+}
+
+.social-media i {
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.social-media {
+  padding-bottom:1rem;
+}
+
+/*----------- MEDIA QUERIES -----------*/
+
+@media(max-width:980px) {
+
+.tab-hide {
+  display:none;
+}
+
+.tab-show {
+  display:block;
+}
+
+h1 {
+  font-size:3rem;
+}
+
+.bump-right {
+  margin-left:14rem;
+}
+
+.hover h2 {
+  min-height:20vh;
+}
+.text-box {
+  width:70%;
+}
+
+} /* this closes the media query  */
+
+@media(max-width:576px){
+
+.mob-hide {
+  display:none;
+}
+
+.mob-show {
+  display:block;
+}
+
+section, footer, .subfooter {
+  padding: 5% 5% 5% 5%;
+}
+
+.padded-left-0,
+.padded-right-0 {
+  padding: 10% 10% 10% 10%;
+}
+
+.padded-bottom,
+.padded-top {
+  padding-bottom: 5%;
+}
+
+.bump-right,
+.bump-down {
+  margin:auto;
+}
+
+.boxed,
+.text-box {
+  width: auto;
+}
+
+.img-small {
+  width: auto;
+}
+
+.banner{
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+h1 {
+  font-size:2rem;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+h2 {
+  font-size:1.8rem;
+}
+
+[class*="bg"] {
+  background-image:none;
+}
+
+.testimonial img {
+  padding:2% 2% 2% 2%;
+}
+
+.homepage-testimonials {
+  padding: 5% 10% 2% 10%;
+}
+
+.bg-mob-grey {
+  background-color: #eee;
+}
+
+.hover h2 {
+  min-height:30vh;
+}
+
+.languages-mobile li,
+.languages-mobile a {
+  display:inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size:0.9em;
+  text-transform: uppercase;
+  /* text-align:center; */
+  padding-top:10%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.sign-up {
+padding: 10% 10% 10% 10%;
+}
+
+form input,
+form textarea {
+  background-color:#fff;
+  border:0px;
+  color: #aaa;
+  padding:1% 3% 1% 3%
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
+}/* this closes the media query  */

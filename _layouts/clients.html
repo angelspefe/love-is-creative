@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<!-- - - - - - - - - - - INTRO - - - - - - - - - - -  -->
+<section class="boxed padded-top">
+<h1>{{page.client}}</h1>
+<h3>{{page.job}}</h3>
+<p>
+{{content}}
+</p>
+</section>
+
+<!-- - - - - - - - - - - FEATURED IMAGE - - - - - - - - - - -  -->
+<div class="align-center">
+<img src="{{page.featured_image}}" alt="{{item.image-alt}}">
+</div>
+</section>
+
+<!-- - - - - - - - - - - SECTION TESTIMONIAL - - - - - - - - - - -  -->
+{% include testimonials.html %}
+
+
+<!-- - - - - - - - - - - SECTION IMAGES - - - - - - - - - - -  -->
+<section class="grid">
+  {% for item in page.images %}
+  <div class="col-6_xs-12">
+    <img src="{{item.img_path}}" alt="{{item.image-alt}}">
+  </div>
+  {% endfor %}
+</section>
+
+
+
+<!-- - - - - - - - - - - SECTION WHO IS THE CLIENT - - - - - - - - - - -  -->
+<section class="boxed padded-bottom bg-mob-grey grey">
+<h3>Who is {{page.client}}</h3>
+<p>{{page.company-description}}</p>
+</section>
+
+<!-- - - - - - - - - - - button back to page - - - - - - - - - - -  -->
+<div class="align-center padded-top padded-bottom">
+  <a href="/projects.html" class="button">back to all projects</a>
+</div>
