@@ -163,9 +163,8 @@ header {
 }
 
 .bg-image-about {
-  background-image: url('/images/my-photo.jpg');
+  /* background-image: url('/images/my-photo.jpg'); */
   background-position:left;
-  display:none;
 }
 
 .bg-web {
