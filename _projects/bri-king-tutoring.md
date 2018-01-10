@@ -2,12 +2,9 @@
 layout: clients
 title: Love is Creative - Bri King Tutoring
 client: Bri King Tutoring
-job: Web design
+job: Brand &amp; Web design
 company-description: >-
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat.
+  Bri King Tutoring is a rapidly expanding business catering to students studying English. They cater to those who are struggling in English, those who lack the confidence, or those who require extra motivation. Founded by Bri King in 2012, the business originally focused on catering to students privately. They have now expanded to providing tutoring for students, no matter where they live in Victoria.
 featured_image: /images/bri-king-tutoring-featured.jpg
 image-alt: bri king tutoring
 testimonial: >-
@@ -23,7 +20,10 @@ categories:
   - featured
 ---
 
+Bri King is one of the most inspiring women I’ve ever met. We were flatmates in Melbourne and, when I moved back to Australia in late 2016, I was beyond honoured to land the offer to design the logo and the website she needed to take her English tutoring business to the next level. It’s incredibly inspiring to witness how she empowers young students in their academics and in their lives.
 
-Bri Kind Tutorial is blah blah dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Bri had a clear aesthetic preference, but also gave me freedom to interpret her business when creating both her logo and website. She knew she wanted to use coral and turquoise colours, and let me fly with the rest. Strategically, the logo needed to be elegant and approachable, but also denote an educational element - to achieve this I used a watercolour splash paired with a handwritten typeface.
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+The website was built using [Squarespace](http://www.squarespace.com) and customised with the business branding. In addition to the main website, which includes a blog, I also created and set up a parallel site using the platform Teachable to host her online courses, which available to students all over Victoria, Australia.
+
+Head to [Bri King Tutoring's website](http://www.brikingtutoring.com) to see it live. I hope you like it as much as I do!
