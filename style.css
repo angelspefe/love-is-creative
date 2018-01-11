@@ -700,7 +700,8 @@ h1 {
 }
 
 .mob-logo img {
-  width:40%;
+  width: auto;
+  height: auto;
 }
 
 section, footer, .subfooter {
