@@ -732,6 +732,12 @@ section, footer, .subfooter {
   width: auto;
 }
 
+.bg-web,
+.bg-graphic,
+.bg-full-package {
+  display:hidden;
+}
+
 .banner{
   height: 100vh;
   padding-top: 20vh;
