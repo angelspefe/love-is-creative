@@ -95,7 +95,7 @@ header {
 
 /*----------- elements -----------*/
 .boxed { /* >> this is for the elements that are in a box */
-  width: 60%;
+  width: 75%;
 }
 
 /* buttons */
@@ -657,7 +657,7 @@ footer nav {
   padding-bottom:1rem;
 }
 
-/*----------- MEDIA QUERIES -----------*/
+/*----------- RESPONSIVE DESIGN - MEDIA QUERIES -----------*/
 
 @media(max-width:980px) {
 
@@ -682,6 +682,9 @@ h1 {
 }
 .text-box {
   width:70%;
+}
+.img-small {
+  width:100%;
 }
 
 } /* this closes the media query  */
