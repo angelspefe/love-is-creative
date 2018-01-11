@@ -687,6 +687,10 @@ h1 {
   width:100%;
 }
 
+.banner {
+  height: 50vh;
+}
+
 } /* this closes the media query  */
 
 @media(max-width:576px){
@@ -701,7 +705,6 @@ h1 {
 
 .mob-logo img {
   width: auto;
-  height: auto;
 }
 
 section, footer, .subfooter {
