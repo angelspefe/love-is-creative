@@ -683,6 +683,7 @@ h1 {
 }
 .text-box {
   width:70%;
+  padding:10%;
 }
 .img-small {
   width:100%;
@@ -749,6 +750,11 @@ h2 {
 
 [class*="bg"] {
   background-image:none;
+}
+
+.bg-full-package {
+  background-image: url('/images/bg-full-package.jpg');
+  background-position:right;
 }
 
 .testimonial img {
