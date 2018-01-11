@@ -732,12 +732,6 @@ section, footer, .subfooter {
   width: auto;
 }
 
-.bg-web,
-.bg-graphic,
-.bg-full-package {
-  background-image: url('');
-}
-
 .banner{
   height: 100vh;
   padding-top: 20vh;
