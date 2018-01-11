@@ -703,10 +703,6 @@ h1 {
   display:block;
 }
 
-.mob-logo img {
-  width: auto;
-}
-
 section, footer, .subfooter {
   padding: 5% 5% 5% 5%;
 }
