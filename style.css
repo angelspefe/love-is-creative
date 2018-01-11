@@ -735,7 +735,7 @@ section, footer, .subfooter {
 .bg-web,
 .bg-graphic,
 .bg-full-package {
-  display:hidden;
+  background-image: url('');
 }
 
 .banner{
