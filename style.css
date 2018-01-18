@@ -59,6 +59,10 @@ header {
   padding: 10% 5% 2% 15%;
 }
 
+.grid-top{
+align-self:auto;
+}
+
 .absolute {
   position: absolute;
 }
