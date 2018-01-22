@@ -3,13 +3,12 @@ layout: clients
 title: Love is Creative - Marbaii
 client: Marbaii
 job: Brand &amp; Web design
-company-description: >-
-  xxx
+company-description: Marbaii Collective is the ultimate destination for all about gypsy travel, conscious fashion and slow life. A ride through beautiful, original and curated, stories of travel, people and wellbeing. Marbaii’s purpose is to inspire you to embark on the journey you’ve always wanted to do, to discover more about soulful (ethical & artisanal) fashion, to celebrate authenticity and, eventually, become a home for all nomadic spirits.
 featured_image: /images/marbaii-featured.jpg
 image-alt: marbaii
-testimonial:
-testimonial-name:
-testimonial-company:
+testimonial: Marbaii came from a very personal story and one of the things I had more clear from the start was how I wanted it to look. I had so much fun in the process and I discovered that creating brands was what I had passion for.
+testimonial-name: Angels Perez
+testimonial-company: Marbaii
 images:
   - img_path: /images/marbaii-1.jpg
   - img_path: /images/marbaii-2.jpg
