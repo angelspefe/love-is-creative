@@ -51,6 +51,9 @@ header {
   padding-top:10%;
 }
 
+.padded-right {
+  padding-right:10%;
+}
 .padded-right-0 {
   padding: 5% 5% 2% 15%;
 }
