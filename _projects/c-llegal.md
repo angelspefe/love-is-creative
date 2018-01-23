@@ -14,7 +14,6 @@ images:
   - img_path: /images/cyllegal-2.jpg
 categories:
   - web
-  - featured
 ---
 
 C&Llegal is a newborn marketing agency that creates a bridge for companies from Latin America and Europe. Based in Madrid, it’s founded by two of the most lovely and fun women I’ve ever met, Alejandra and Judith. I’ve been close friends with Judith for over 5 years, so when she approached me with the proposal to create the website for their business I couldn’t be more excited. I feel very inspired to see them start this journey building a business that plays their strengths and passions, creating the life they dream of, while having a whole lot of fun.
