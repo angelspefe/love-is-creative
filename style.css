@@ -31,6 +31,10 @@ header {
   text-align: center;
 }
 
+.align-left {
+  text-align:left;
+}
+
 .padded-5 {
   padding:5%
 }
@@ -54,6 +58,7 @@ header {
 .padded-right {
   padding-right:10%;
 }
+
 .padded-right-0 {
   padding: 5% 5% 2% 15%;
 }
