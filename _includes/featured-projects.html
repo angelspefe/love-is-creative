@@ -1,7 +1,7 @@
 <section>
 <h2>Featured projects</h2>
 <div class="image-table grid align-center" id="projects-table">
-  {% assign featuredProjects = site.projects | if: category == "featured" %}
+  {% assign featuredProjects = site.projects | if: page.category == "featured" %}
     {% for item in featuredProjects %}
   <a class="col-6_xs-12 table-item" href="{{item.url}}">
     <div class="hover" style="background-image: url('{{item.featured_image}}')">
