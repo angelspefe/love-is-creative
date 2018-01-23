@@ -709,6 +709,14 @@ h1 {
 
 @media(max-width:576px){
 
+.tab-hide {
+  display:none;
+}
+
+.tab-show {
+  display:block;
+}
+
 .mob-hide {
   display:none;
 }
