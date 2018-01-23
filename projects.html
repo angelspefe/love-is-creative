@@ -22,7 +22,7 @@ title: Love is Creative - Projects
 
 <!-- - - - - - - - - - - GRID - - - - - - - - - - -  -->
 <section>
-<div class="image-table grid align-center" id="projects-table">
+<div class="image-table grid-reverse align-center" id="projects-table">
   {% for item in site.projects %}
   <a class="col-6_xs-12 table-item {% for thing in item.categories | join:' ' %} {{thing}} {% endfor %}" href="{{item.url}}">
     <div class="hover" style="background-image:url('{{item.featured_image}}')">
