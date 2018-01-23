@@ -675,11 +675,11 @@ footer nav {
 @media(max-width:980px) {
 
 .tab-hide {
-  display:none!important;
+  display:none !important;
 }
 
 .tab-show {
-  display:block!important;
+  display:block !important;
 }
 
 h1 {
