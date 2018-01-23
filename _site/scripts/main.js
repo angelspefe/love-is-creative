@@ -72,7 +72,7 @@ $(".burger-button").click(function(){
     $('nav#portfolio-filter .active').removeClass('active');
     $(this).addClass('active');
 
-    /* get the name of the cateory from this link */
+    /* get the name of the category from this link */
     var filterVal = $(this).text().toLowerCase().replace(' ','-');
 
     $('#projects-table .table-item').each(function() {
