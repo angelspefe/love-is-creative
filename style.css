@@ -455,7 +455,7 @@ header nav {
 /*----------- DROPDOWN SECTION-----------*/
 
 .dropdown-content {
-  display:none;
+  /* display:none; */
   padding:5%;
   background-color: #eee;
 }
