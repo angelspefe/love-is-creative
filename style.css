@@ -684,6 +684,7 @@ footer nav {
 
 h1 {
   font-size:3rem;
+  padding-right:0;
 }
 
 .bump-right {
@@ -702,7 +703,7 @@ h1 {
 }
 
 .banner {
-  height: 70vh;
+  height: 80vh;
 }
 
 } /* this closes the media query  */
