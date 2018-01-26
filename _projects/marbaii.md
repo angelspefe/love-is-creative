@@ -14,7 +14,7 @@ images:
   - img_path: /images/marbaii-2.jpg
 categories:
   - web
-  - graphic
+  - brand
   - featured
 ---
 

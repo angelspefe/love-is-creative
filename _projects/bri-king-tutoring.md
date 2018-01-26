@@ -16,7 +16,7 @@ images:
   - img_path: /images/bri-king-tutoring-2.jpg
 categories:
   - web
-  - graphic
+  - brand
   - featured
 ---
 
