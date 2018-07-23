@@ -1,0 +1,28 @@
+---
+layout: clients
+title: Love is Creative - Amanda Mason
+client: Amanda Mason
+job: Web &amp; Business Strategy, Design &amp; Development
+company-description: Amanda Mason is a nutrition and fitness coach, personal trainer and master of making the journey to people's goals, easier. Her mission is to empower women with skills and knowledge to create the body and life they have always desired. Amanda's end all mission is to empower people through the process of physique changes, to build strong characteristics (like self belief) to take on the challenges faced outside of the kitchen and gym, in life, and to begin living consciously, doing the things necessary to create one's best life.
+featured_image: /images/amanda-featured.jpg
+image-alt: amanda-mason
+testimonial: It’s been a terrific experience working with Angels! She just plain got me - even when I didn’t fully know how to express what I wanted, she was able to read into my descriptions and fully embody what I wanted to say without me saying it. Angels has a gift for making ideas and visions come to life. I knew from the get go with her organization, step-by-step process and thoroughness of questions that I was in good hands to say the least. I couldn’t be more grateful for how helpful she was, when I had a mental roadblock on writing content, she helped fill in the gaps, when I had questions outside our scope of contract, she passed sources and information to help me learn and went above beyond in all she did. My favorite part is that she was as enthusiastic and excited for my website as I was - true heart, soul and love.
+testimonial-name: Amanda Mason
+testimonial-company: Nutrition &amp; Fitness Coach
+images:
+  - img_path: /images/amanda-1.jpg
+  - img_path: /images/amanda-2.jpg
+categories:
+  - web
+  - featured
+---
+
+When I launched [Love is Creative](http://www.loveiscreative.com){:target="_blank"} as it is, [Amanda](https://www.instagram.com/trainwithamandamason/){:target="_blank"} was one of the first people who contacted me. She was looking, at that specific moment in time (hello serendipity!), to redesign and align her website with the person and coach she had grown into. I met Amanda a couple of years back when, leading a nomad life, I was looking for a way to find stability in my fitness routine. I came across her [online nutrition and fitness services](https://www.trainwithamandamason.com/all-services){:target="_blank"}, and I embarked in a life-changing journey of learning about my limits, strength and claiming the power to my health. Her way of approaching health and life is honest and empowering and her mission to help women be their own best selves made me be extremely excited: I could work alongside someone who inspired me and, at the sime time, make a small contribution towards more women reclaiming their lives through health.
+
+Amanda came on board with a big, rough idea of what she needed, but a slight overwhelm (so familiar, right?) in how to tackle it. As I do with all of my clients, we started off by having Amanda go through the brand questionnaire, which, she LOVED. In her own words “I loved the initial questionnaire, it made me really think about what I wanted to create and what I wanted to bring out as my brand features. You had questions I never really thought about and it helped me create a solid foundation”. She was living in Costa Rica at the time, and had a very holistic, natural approach to her nutrition and fitness coaching. I suggested to infuse her lifestyle and values to her business, and portray her online persona as a bohemian health coach, something quite unique in the fitness industry.
+
+I worked closely with Amanda not only building [her new website](http://www.trainwithamandamason.com){:target="_blank"}, designing its graphics and guiding her on copywriting and photography style, but also helping her systemise and simplify some of her processes and bringing structure to the vast ocean of ideas and tasks she needed to make it all happen. One of the main struggles of most business owners is feeling scattered when approaching a 'big' project such as creating your website (does that strike a chord?). That’s why one of the most important parts of my process of working with clients (and one that I love - call me organisation freak!) is providing a structure and the right amount of resources so the creation process flows like a beautiful, peaceful river. Amanda said: “Your step by step and organization made things so much easier!”. Who wants complicated, right?
+
+Amanda’s old website was built on Wordpress, and she had started to play with Squarespace at the time. So, in one of our first chats about her specific needs, we went trough the different options: using pre-built platforms such as Wordpress or Squarespace, or building a 100% customised website from scratch (hint: my favourite option). She decided to go for Squarespace, after we made sure it could deliver everything she needed. The result? A beautiful, 100% Amanda's style, website that not only hosted all the needed information, but also was user orientated and took potential clients through an insightful and effective journey towards booking her services (and changing their lives). Oh, and you know what? All done while Amanda and I were jumping on different time zones: Costa Rica, the US, Barcelona and Bali. Thanks digital space!
+
+I’ve ADORED working with Amanda in this project, and the journey has not only been of professional expansion for me, but also one of getting even deeper into healing my health (where there’s Amanda, life growth happens!). Head to [Amanda's website](http://www.trainwithamandamason.com){:target="_blank"}. and explore. I hope you love it (and her) as much as I do!
